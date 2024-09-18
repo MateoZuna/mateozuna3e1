@@ -1,0 +1,68 @@
+.sidemenu-container{
+    width: 25%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(72, 182, 255), rgb(0, 153, 255));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 80px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 10px;
+    width: auto;
+
+}
+
+.item span{
+    font-size: 1.5rem;
+}
+
+.item p, pre{
+    font-size: 20px;
+    font-weight: bold;
+    text-wrap: wrap;
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+
+}
+
+button{
+    background-color: white;
+    border-radius: 1em;
+    padding: 10px;
+    border: transparent;
+}
+
+.back{
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    font-size: 45px;
+}
+
+.btn{
+    background-color: white;
+    border-radius: 1em;
+    padding: 10px;
+    border: transparent;
+    font-size: 35px;
+}
+

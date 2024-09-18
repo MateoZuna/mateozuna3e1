@@ -1,0 +1,28 @@
+<div>
+    <button (click)="setVisibilityMenu()" class="menuu">Menu</button>
+</div>
+
+<div class="sidemenu-container"
+    [style.backgroundColor]="theme"
+    [style.width]="widhtMenu + '%'"
+    [style.display]="visibleMenu ? 'flex' : 'none'">
+
+    <div class="item">
+        <img src="https://www.transparentpng.com/download/user/gray-user-profile-icon-png-fP8Q1P.png" alt="Perfil.png">
+        <p>{{userName}}</p>
+        <button (click)="setVisibilityMenu()" class="back">➜</button>
+    </div>
+
+    <div class="item">
+        <p><span>📅</span>Dashboard</p>
+    </div>
+
+    <div class="item">
+        <pre><span>🧑</span>Profile</pre>
+    </div>
+
+    <div class="item">
+        <button class="btn" (click)="setThemeColor('purple')">🎨</button>
+        <button class="btn" (click)="setSizeMenu()">⬌</button>
+    </div>
+</div>
